@@ -1,0 +1,173 @@
+body
+{   
+    font-size:312.5%;
+	width:auto;
+	height:21.92em;
+	margin:0em auto;
+	position:relative;
+	background-image:url("image/bg1.png");
+}
+img
+{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+.bgimg_1
+{
+	position:absolute;
+	top:0em;
+	left:0em;
+}
+
+.head_back
+{
+	height:1.76em;
+	background-color:#333333;
+	position:relative;
+	text-align:center;
+	vertical-align:middle;
+
+
+}
+.head_back_img1
+{
+
+	position:absolute;
+	top:0.48em;
+	left:0.32em;
+}
+.head_back_span_1
+{
+    position:absolute;
+	color:#ffffff;
+	font-size:0.52em;
+	left:1.95em;
+	top:0.85em;
+}
+.head_back_span_2
+{
+	color:#ffffff;
+	font-size:0.68em;;
+	right:47.45%
+	top:26.2%
+}
+.head_back_cirle
+{
+	width:0.78em;
+	height:0.22em;
+    position:absolute;
+	right:0.36em;
+	top:0.78em;
+}
+.ooo
+{
+    position:absolute;
+    top:0em;
+    left:0em;
+	
+}
+.xxx
+{
+	position:absolute;
+    top:0em;
+    right:0em;
+}
+.sss
+{
+	position:absolute;
+    top:0em;
+    left:0.3em;
+}
+.contents
+{
+	height:20.14em;
+	position:relative;
+	text-align:center;
+}
+.contents_img1
+{
+	position:absolute;
+	top:0.4em;
+    left:0.7em;
+}
+.contents_img2
+{
+    padding-top:2.28em;
+}
+.contents_img2 img
+{
+	margin:0em auto;
+}
+.word
+{
+	height:3.88em;
+	position:absolute;
+	top:6.14em;
+	right:0em;
+	padding-left:14.06%;
+	padding-right:15.62%;
+}
+.word_1
+{
+	font-size:0.6em;
+	color:#ffffff;
+	margin-top:-0.45em;
+	line-height:1.8em;
+	
+}
+.contents_left
+{
+	width:2.44em;
+	height:2.56em;
+	position:absolute;
+	bottom:4.16em;
+	left:19.06%;
+	text-align:center;
+}
+.img_3
+{
+	margin:0em auto;
+}
+.num
+{
+	font-size:0.48em;
+	position:absolute;
+	bottom:0em;
+	left:-0.07em;
+	color:#ffffff;
+}
+.contents_right
+{
+	
+	width:2.12em;
+	height:2.66em;
+	position:absolute;
+	bottom:4.06em;
+	right:17.34%;
+	text-align:center;
+}
+.num1
+{
+	font-size:0.48em;
+	position:absolute;
+	bottom:0.2em;
+	left:-0.07em;
+	color:#ffffff;
+}
+.bbt
+{
+	position:absolute;
+	bottom:0em;
+	left:0em;
+}
+.aat
+{
+	margin:0em auto;
+}
+.summer
+{
+	position:absolute;
+	width:100%;
+	bottom:2em;
+}
