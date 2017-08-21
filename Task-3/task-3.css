@@ -22,7 +22,6 @@ img
 .contents
 {
 	position:relative;
-	text-align:center;
 }
 .contents_img1
 {
@@ -53,7 +52,8 @@ img
 	color:#ffffff;
 	margin-top:-0.45em;
 	line-height:1.8em;
-	text-align: left;
+	display: table;
+	margin: 0 auto；
 	
 }
 .contents_left
