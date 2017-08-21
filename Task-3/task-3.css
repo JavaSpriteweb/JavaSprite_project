@@ -5,6 +5,7 @@ body
 	margin:0em auto;
 	position:relative;
 	background-color:#66cccc;
+	overflow-x: hidden;
 }
 img
 {
