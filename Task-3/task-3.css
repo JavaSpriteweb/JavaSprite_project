@@ -27,7 +27,7 @@ img
 {
 	position:absolute;
 	top:0.45em;
-        left:5.46%;
+    left:5.46%;
 	width:8.4%;
 	height:8.4%;
 }
@@ -53,7 +53,9 @@ img
 	margin-top:-0.45em;
 	line-height:1.8em;
 	display: table;
-	margin: 0 auto；
+	margin: 0 auto
+
+
 	
 }
 .contents_left
