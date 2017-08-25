@@ -1,0 +1,257 @@
+.sb
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+html
+{
+	font-size:625%
+}
+body
+{
+	width:100%;
+	margin:0;
+	overflow-x:hidden;
+}
+img
+{
+	max-width:100%;
+}
+header
+{
+	height:0.55rem;
+	background-color:#66cccc;
+	position:relative;
+	text-align:center;
+}
+.magic
+{
+	width: 39.72%;
+    height: 0.42rem;
+    margin-top: 0.06rem;
+    background-image: url(image/buttern.png);
+    border-radius: 0.1rem;
+    outline: none;
+	
+	
+}
+.key
+{
+	height: 0.42rem;
+    width: 21%;
+    top: 0.06rem;
+    right: 30.1%;
+    position: absolute;
+    background-color:white;
+    border-radius: 0.1rem;
+    outline: none;
+	z-index:5;
+	color:rgb(95,192,205);
+	font-size:0.2rem;
+}
+.zhu
+{
+	width:21%;
+	height:0.42rem;
+    left: 29.5%;
+	text-align:center;
+	position:absolute;
+	line-height: 0.4rem;
+	top: 0.06rem;
+	font-size:0.2rem;
+	z-index:5;
+}
+.gu
+{
+	width:21%;
+	height:0.42rem;
+	line-height: 0.4rem;
+    right: 30.1%;
+	text-align:center;
+	position:absolute;
+	top: 0.06rem;
+	font-size:0.2rem;
+	z-index:5;
+}
+.local
+{
+	background-image:url("image/image-sm.png");
+	background-position:0rem 0rem;
+	position:absolute;
+	width:0.43rem;
+	height:0.43rem;
+	display:inline;
+	float:right;
+    top: 0.06rem;
+    right: 0.08rem;
+	transform: scale(0.625);
+}
+.navi
+{
+	display: inline-block;
+    margin-top: 0.075rem;
+}
+.blue
+{
+	background-color:#6699cc;
+	color:#ffffff;
+	border-radius:0.08rem;
+}
+.white
+{
+	background-color:#ffffff;
+	color:#66cccc;
+	border-radius:0.08rem;
+}
+.bt
+{
+	width:100%;
+	border:none;
+	border-right:0.01rem solid #ccccff;
+	border-radius:0rem;
+}
+.ct
+{
+	border-bottom:0.01rem solid #ccccff;
+	padding:0;
+	margin:0;
+	width:100%
+}
+.at
+{
+	float: right;
+    margin-top: 0.09rem;
+}
+.at1
+{
+	float: right;
+    margin-top: 0.09rem;
+    margin-right: 0.18rem;
+}
+.caleda
+{
+	background-image:url("image/image-sm.png");
+	background-position:1.52rem 0rem;
+	width:0.24rem;
+	height:0.16rem;
+	display:inline;
+	float:left;
+	transform: scale(1);
+	margin-top: 0.03rem;
+}
+.rectangle
+{
+	background-image:url("image/image-sm.png");
+	background-position:1.9rem 0rem;
+	width:0.185rem;
+	height:0.33rem;
+	display:inline;
+	float:right;
+	transform: scale(0.6);
+	margin-top: -0.066rem;
+}
+.add
+{
+	background-image:url("image/image-sm.png");
+	background-position:1.715rem 0rem;
+	width:0.19rem;
+	height:0.21rem;
+	display:inline;
+	float:left;
+	transform: scale(0.9);
+	margin-left:0.02rem;
+}
+.box
+{
+	border-bottom:0.01rem solid #ccccff;
+}
+footer
+{
+	height: 0.67rem;
+    width: 100%;
+    background-color:rgba(47, 79, 79, 0.21);
+	position:fixed;
+	bottom:0rem;
+	z-index:1;
+	text-align:center;
+}
+.circle
+{
+	background-image:url("image/image-sm.png");
+	background-position:-0.42rem 0rem;
+	width:0.95rem;
+	height:0.95rem;
+	transform: scale(0.7);
+    position:absolute;
+	top:-0.14rem;
+	margin-left: -0.48rem;
+
+}
+.doll
+{
+	background-image:url("image/image-sm.png");
+	background-position:0.41rem 0rem;
+	width:0.425rem;
+	height:0.41rem;
+	transform: scale(0.8);
+    position:absolute;
+	top:0.11rem;
+	margin-left:-0.20rem;
+}
+.box1
+{
+	height: 0.665rem;
+    display: inline;
+    width: 0.665rem;
+}
+.box2
+{
+	height: 0.665rem;
+    display: inline-block;
+    width: 0.665rem;
+	position:absolute;
+	right:12%
+}
+.box3
+{
+	height: 0.665rem;
+    display: inline-block;
+    width: 0.665rem;
+	position:absolute;
+	left:12%
+}
+.people
+{
+	background-image:url("image/image-sm.png");
+	background-position:0.826rem 0rem;
+	width:0.425rem;
+	height:0.41rem;
+	transform: scale(0.8);
+    position:absolute;
+	top:0.03rem;
+	margin-left:-0.08rem;
+}
+.people1
+{
+	background-image:url("image/image-sm.png");
+	background-position:1.287rem 0rem;
+	width:0.47rem;
+	height:0.405rem;
+	transform: scale(0.8);
+    position:absolute;
+	top:0.03rem;
+	margin-left:-0.24rem;
+}
+.text1
+{
+	position: absolute;
+    bottom: 0.05rem;
+}
+.text2
+{
+	position: absolute;
+    bottom: 0.05rem;
+	left: 0.2rem;
+	color:#66cccc;
+}
