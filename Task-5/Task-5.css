@@ -6,7 +6,8 @@ body
 {
 	
 	width:auto;
-	margin:0;
+	margin:0rem;
+	margin-bottom:3rem;
 	overflow-x:hidden;
 }
 img
@@ -57,7 +58,7 @@ header img
 	height:0.83rem;
 	width:0.83rem;
 	padding-top:0.18rem;
-	margin-left:0.15rem;
+	margin-left:0.3rem;
 	display:inline-block;
 }
 .name
@@ -93,13 +94,15 @@ header img
 	top:0.91rem;
 	left:1.75rem;
 }
+ul
+{
+	margin-bottom:0.44rem;
+}
 ul,li
 {
 	list-style-type: none;
-    text-indent: -0.05rem;
     font-size: 0.16rem;
     height: 0.45rem;
-    margin: 0rem;
     line-height: 0.455rem;
 	border-bottom: 0.0001rem solid #ccccff;
 }
@@ -126,16 +129,28 @@ ul,li
 {
 	font-size:0.13rem;
 }
+.left
+{
+margin-left:-0.2rem;
+}
 .last
 {
-	height:auto;
-	vertical-align:middle;
-	text-indent: -0.08rem;
+	height: auto;
+    vertical-align: middle;
+    text-indent: -0.08rem;
+    margin-left: -0.4rem;
+    padding-left: 0.255rem;
 }
+
 table,td,tr
 {
 	margin:0rem;
 	padding:0rem;
+}
+#line
+{
+	border-bottom:0.01rem solid black;
+	width:100%
 }
 .td1
 {
