@@ -113,6 +113,60 @@ header
 	margin:0;
 	width:100%
 }
+.ct1
+{
+	padding:0;
+	height:0.42rem;
+}
+.ct2
+{
+	width:100%;
+	margin-top:0.05rem
+}
+.ct3
+{
+	font-size:0.155rem;
+	color: darkgrey;
+}
+.ad1
+{
+	margin-top:0.1rem;
+}
+.ad2
+{
+	font-size: 0.16rem;
+	margin-left: 0.15rem; 
+	color:darkgrey;
+}
+.ad3
+{
+	margin-top:0.1rem;
+}
+.ad4
+{
+	margin-left: 0.38rem;
+	font-size: 0.15rem;
+	font-weight: bold;
+}
+.ad5
+{
+	float: right;
+	font-size: 0.16rem;
+	color: red;
+	font-weight: bold;
+	margin-right: 0.1rem;
+}
+.ad6
+{
+	margin-top:0.05rem;
+	margin-bottom: 0.15rem;
+}
+.ad7
+{
+	font-size: 0.16rem;
+	margin-left: 0.16rem;
+	color:darkgrey;
+}
 .at
 {
 	float: right;
