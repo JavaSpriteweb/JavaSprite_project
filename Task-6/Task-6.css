@@ -12,6 +12,8 @@ body
 {
 	width:100%;
 	margin:0;
+	margin-bottom: 0.55rem;
+	margin-top:0.55rem;
 	overflow-x:hidden;
 }
 img
@@ -21,59 +23,52 @@ img
 header
 {
 	height:0.55rem;
+	width:100%;
+	z-index:10;
 	background-color:#66cccc;
-	position:relative;
+	position:fixed;
+	top:0rem;
 	text-align:center;
+}
+.butt
+{
+	height:0.55rem;
+	width:2.1rem;
+	position:relative;
+	margin:0 auto;
 }
 .magic
 {
-	width: 39.72%;
+	width: 1.1rem;
     height: 0.42rem;
-    margin-top: 0.06rem;
-    background-image: url(image/buttern.png);
-    border-radius: 0.1rem;
-    outline: none;
+	color:white;
+	position:absolute;
+	top:0.06rem;
+	left:0rem;
+	z-index:3;
+    background-color:rgb(85,168,179);
+    border-radius: 0.05rem;
+    border:none;
+	font-size:0.18rem;
 	
 	
 }
 .key
 {
 	height: 0.42rem;
-    width: 21%;
-    top: 0.06rem;
-    right: 30.1%;
-    position: absolute;
+    width: 1.05rem;
+	position:absolute;
+	top:0.06rem;
+	right:0rem;
+	z-index:4;
     background-color:white;
-    border-radius: 0.1rem;
-    outline: none;
-	z-index:5;
+    border-radius: 0.05rem;
+    border:none;
 	color:rgb(95,192,205);
-	font-size:0.2rem;
+	font-size:0.18rem;
+
 }
-.zhu
-{
-	width:21%;
-	height:0.42rem;
-    left: 29.5%;
-	text-align:center;
-	position:absolute;
-	line-height: 0.4rem;
-	top: 0.06rem;
-	font-size:0.2rem;
-	z-index:5;
-}
-.gu
-{
-	width:21%;
-	height:0.42rem;
-	line-height: 0.4rem;
-    right: 30.1%;
-	text-align:center;
-	position:absolute;
-	top: 0.06rem;
-	font-size:0.2rem;
-	z-index:5;
-}
+
 .local
 {
 	background-image:url("image/image-sm.png");
@@ -108,15 +103,69 @@ header
 {
 	width:100%;
 	border:none;
-	border-right:0.01rem solid #ccccff;
+	border-right:0.01rem solid rgba(169, 169, 169, 0.67);
 	border-radius:0rem;
 }
 .ct
 {
-	border-bottom:0.01rem solid #ccccff;
+	border-bottom:0.01rem solid rgba(169, 169, 169, 0.67);
 	padding:0;
 	margin:0;
 	width:100%
+}
+.ct1
+{
+	padding:0;
+	height:0.42rem;
+}
+.ct2
+{
+	width:100%;
+	margin-top:0.05rem
+}
+.ct3
+{
+	font-size:0.155rem;
+	color: darkgrey;
+}
+.ad1
+{
+	margin-top:0.1rem;
+}
+.ad2
+{
+	font-size: 0.16rem;
+	margin-left: 0.15rem; 
+	color:darkgrey;
+}
+.ad3
+{
+	margin-top:0.1rem;
+}
+.ad4
+{
+	margin-left: 0.38rem;
+	font-size: 0.15rem;
+	font-weight: bold;
+}
+.ad5
+{
+	float: right;
+	font-size: 0.16rem;
+	color: red;
+	font-weight: bold;
+	margin-right: 0.1rem;
+}
+.ad6
+{
+	margin-top:0.05rem;
+	margin-bottom: 0.15rem;
+}
+.ad7
+{
+	font-size: 0.16rem;
+	margin-left: 0.16rem;
+	color:darkgrey;
 }
 .at
 {
@@ -164,13 +213,13 @@ header
 }
 .box
 {
-	border-bottom:0.01rem solid #ccccff;
+	border-bottom:0.01rem solid rgba(169, 169, 169, 0.67);
 }
 footer
 {
-	height: 0.67rem;
+	height: 0.60rem;
     width: 100%;
-    background-color:rgba(47, 79, 79, 0.21);
+    background-color:rgb(248,250,251);
 	position:fixed;
 	bottom:0rem;
 	z-index:1;
@@ -182,9 +231,9 @@ footer
 	background-position:-0.42rem 0rem;
 	width:0.95rem;
 	height:0.95rem;
-	transform: scale(0.7);
+	transform: scale(0.6);
     position:absolute;
-	top:-0.14rem;
+	top:-0.17rem;
 	margin-left: -0.48rem;
 
 }
@@ -196,8 +245,8 @@ footer
 	height:0.41rem;
 	transform: scale(0.8);
     position:absolute;
-	top:0.11rem;
-	margin-left:-0.20rem;
+	top:0.085rem;
+	margin-left:-0.19rem;
 }
 .box1
 {
@@ -227,9 +276,9 @@ footer
 	background-position:0.826rem 0rem;
 	width:0.425rem;
 	height:0.41rem;
-	transform: scale(0.8);
+	transform: scale(0.65);
     position:absolute;
-	top:0.03rem;
+	top:0rem;
 	margin-left:-0.08rem;
 }
 .people1
@@ -238,20 +287,20 @@ footer
 	background-position:1.287rem 0rem;
 	width:0.47rem;
 	height:0.405rem;
-	transform: scale(0.8);
+	transform: scale(0.7);
     position:absolute;
-	top:0.03rem;
+	top:0.02rem;
 	margin-left:-0.24rem;
 }
 .text1
 {
 	position: absolute;
-    bottom: 0.05rem;
+    bottom: 0.09rem;
 }
 .text2
 {
 	position: absolute;
-    bottom: 0.05rem;
+    bottom: 0.08rem;
 	left: 0.2rem;
 	color:#66cccc;
 }
