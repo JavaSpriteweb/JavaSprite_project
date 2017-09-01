@@ -39,6 +39,10 @@ img
 	float:left;
 	transform: scale(0.8);
 }
+a:hover
+{
+	text-decoration:none;
+}
 .go
 {
 	background-image:url("image/pic.png");
@@ -162,6 +166,7 @@ img
 {
 	width:100%;
 	margin:0;
+	margin-bottom:0.9rem;
 	background-color:rgb(41,189,224);
 	position:relative;
 }
@@ -224,6 +229,10 @@ img
     line-height: 0.55rem;
     text-align: center;
 
+}
+.box:hover
+{
+	cursor:pointer;
 }
 .bouse
 {
@@ -525,5 +534,5 @@ img
 }
 .res_box-2
 {
-	margin-bottom: 0.2rem;
+	margin-bottom: 0.7rem;
 }
