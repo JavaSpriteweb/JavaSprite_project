@@ -1,3 +1,7 @@
+body
+{
+	overflow-x:hidden
+}
 html
 {
 	font-size:625%;
@@ -10,6 +14,10 @@ img
 {
 	padding-left:0rem;
 	padding-right:0rem;
+}
+.zero
+{
+	padding:0rem 0rem 0rem 0.15rem;
 }
 .head_firstPart
 {
@@ -28,57 +36,45 @@ img
 	float:right;
 	margin-left:0.16rem;
 }
+
 .ob
 {
 	background-color:rgb(41,176,120);
 }
-.head_secondPart
+.mynav-abox
+{
+	margin:0rem;
+	border:none;
+}
+.mynav-box
 {
 	background-color:rgb(41,176,120);
-	overflow:auto;
-	padding-left:0rem;
-	padding-right:0rem;
-	vertical-align:middle;
-	position:relative;
-	
-}
-.head_secondPart img
-{
-	vertical-align:middle;
-	position:absolute;
-	top:50%;
-	transform:translateY(-50%);
+	padding:0rem;
 
-	
 }
-.head_secondPart ul
+@media (min-width: 768px)
 {
-	
-}
-.head_secondPart ul li
+.mynav
 {
-	list-style:none;
 	float:right;
-	padding:0.41rem 0.35rem;
 }
-.about
-{
-	padding-right:0rem;
 }
-.f1:hover
+.mynav li:hover
 {
 	border-bottom:0.05rem solid white;
 }
-.head_secondPart ul li a:hover
-{
-	text-decoration:none;
-}
-.head_secondPart ul li a
+#color-white
 {
 	color:white;
-	letter-spacing:0.05rem;
-	font-size:0.16rem;
 }
+.mynav li
+{
+	padding:0.27rem 0rem;
+	letter-spacing:0.1rem;
+	font-size:0.16rem;
+	
+}
+
 
 .maincontent
 {
@@ -102,6 +98,13 @@ img
 {
 	margin: 0.1rem 0 0.3rem 0;
 	
+}
+@media screen and (max-width: 768px)
+{
+	.box1,.box2,.box3,.box4
+	{
+		text-align:center;
+	}
 }
 .maincontent .box1
 {
@@ -187,78 +190,96 @@ img
 {
 	padding:0rem 0rem 0.93rem 0rem;
 }
+@media (max-width: 768px)
+{
+	.box-1,.box-2,.box-3,.box-4
+	{
+		
+		margin:0rem auto 0.5rem auto;
+		
+	}
+	.box-4{
+		width:3.1rem;
+	}
+}
 section .box-1
 {
-	position:relative;
 	padding:0rem;
+	width:3.1rem;
+    position:relative;
 }
 .box-1 p
 {
 	position:absolute;
 	top:50%;
+	left:0.9rem;
 	transform:translateY(-50%);
-	right:0.55rem;
+
 }
 .box-1-rec
 {
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
-	right:0rem;
+	left:2.6rem;
 }
 section .box-2
 {
 	position:relative;
-	padding-right:0rem;
-	padding-left:0.3rem;
+	width:3.1rem;
+	padding:0rem;
+
 }
 .box-2 p
 {
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
-	right:0.1rem;
+	left:0.8rem;
+}
+.box-2-rec
+{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left:2.6rem;
 }
 section .box-3
 {
 	position:relative;
-	padding-right:0rem;
-	padding-left:0.5rem;
+	width:3.1rem;
+	padding:0rem;
+
 }
 section .box-3 p
 {
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
-	right:0.2rem;
+	left:0.9rem;
 }
 .box-3-rec
 {
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
-	left:0rem;
+	left:2.6rem;
 }
 section .box-4
 {
 	position:relative;
-	padding-right:0rem;
-	padding-left:0.64rem;
+	width:2.7rem;
+	padding:0rem;
+
 }
 section .box-4 p
 {
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
-	right:0.22rem;
+	left:0.9rem;
 }
-.box-4-rec
-{
-	position:absolute;
-	top:50%;
-	transform:translateY(-50%);
-	left:0.05rem;
-}
+
 .text-6
 {
 	color: rgb(176,176,176);
@@ -292,6 +313,36 @@ section .box-4 p
 .sec-box-1
 {
 	padding:0rem;
+}
+@media (max-width: 768px)
+{
+.sec-box-1
+{
+	text-align:center;
+	margin-bottom:0.3rem;
+}
+.sec-box-2
+{
+	text-align:center;
+	margin-bottom:0.3rem;
+	margin-left:0.05rem;
+}
+.sec-box-3
+{
+	text-align:center;
+	margin-bottom:0.3rem;
+	margin-left:0.02rem;
+}
+.sec-box-4
+{
+	text-align:center;
+	margin-bottom:0.3rem;
+	margin-left:-0.05rem;
+}
+.frame
+{
+	display:inline-block;
+}
 }
 .sec-box-2
 {
@@ -331,19 +382,27 @@ section .box-4 p
 	padding-bottom:0.55rem;
 	height:0.13rem;
 }
-.picture-1:hover
+.pic-box:hover
 {
-		box-shadow:0px 0px 5px rgb(22,245,242);
+    box-shadow:0px 0px 5px rgb(22,245,242);
 }
-.picture-1
+@media (max-width: 768px)
 {
-	width:20%;
-	height:1.77rem;
-	float:left;
-    position:relative;
+	.pic-box
+	{
+		
+		margin:0.3rem auto;
+	}
+}
+.pic-box
+{
+    width:2.4rem;
+	height:2.4rem;
+	position:relative;
 	background-color:rgb(255,255,255);
+	
 }
-.picture-1 img
+.pic-box img
 {
 	position:absolute;
 	top:50%;
@@ -353,79 +412,73 @@ section .box-4 p
 .contact
 {
 	background-color:#ffffff;
-	padding:0 16.5%;
 	
 }
-.contact li
+.my-li a
 {
 	font-size:0.14rem;
+
 	color:rgb(153,153,153);
-	float:left;
 	letter-spacing:0.02rem;
-	margin-right:0.49rem;
-	padding-bottom:0.08rem;
-	margin-bottom:0.1rem;
 }
+.my-li  div
+{
+	padding:0rem;
+	width:1.1rem;
+	padding-bottom:0.18rem;
+}
+
 .index_footer
 {
 	background-color:rgb(38,162,111);
-	margin-top:0.93rem;
-	padding-bottom:1.71rem;
+	margin-top:0rem;
 	border-bottom:0.005rem solid white;
 }
-.para1
+@media (max-width: 768px)
 {
-	position:absolute;
-	left:0.15rem;
-	top:0.38rem;
+	.para1,.para2,.para3,.para5,.para6
+	{
+		text-align:center;
+	}
+}
+.para1 p
+{
+	
+	margin-top:0.38rem;
+	margin-bottom:0.15rem;
 	font-size:0.16rem;
 	color:white;
 }
-.para2
+.para2 p
 {
-	position:absolute;
-	right:1.75rem;
-	font-size:0.16rem;
-	color:white;
-	top:0.38rem;
-}
-.para3
-{
-	position:absolute;
-	left:3.6rem;
-	top:0.82rem;
+	margin-top:0.38rem;
+	margin-bottom:0.15rem;
+	margin-left:0.5rem;
 	font-size:0.16rem;
 	color:white;
 }
-.para4
+.para3 p
 {
-	position:absolute;
-	right:0.35rem;
-	font-size:0.16rem;
-	color:white;
-	top:0.82rem;
-}
-.para5
-{
-	position:absolute;
-	left:0.15rem;
-	font-size:0.16rem;
-	color:white;
-	top:1.21rem;
-}
-.para6
-{
-	position:absolute;
-	left:3.6rem;
-	top:1.21rem;
+	margin-top:0.17rem;
+	margin-left:0.5rem;
+	padding-bottom:0.07rem;
+	margin-bottom:0.12rem;
 	font-size:0.16rem;
 	color:white;
 }
-.para7
+.para5 p
 {
-	position:absolute;
-	right:0.65rem;
-	top:1.21rem;
+	margin-top:0.07rem;
+    margin-bottom:0.34rem;
+	font-size:0.16rem;
+	color:white;
+}
+.para6 p
+{
+
+    margin-top:0.07rem;
+    margin-bottom:0.34rem;
+	margin-left:0.5rem;
 	font-size:0.16rem;
 	color:white;
 }
@@ -433,29 +486,30 @@ section .box-4 p
 {
 	font-size:0.16rem;
 	color:white;
-	position:absolute;
-	top:0.4rem;
-	right:0.16rem;
+	margin-top:0.39rem;
+	margin-right:0.3rem;
+	margin-bottom:0.09rem;
+}
+.mid
+{
+	text-align:right;
 }
 .wei
-{
-	position:absolute;
-	top:0.61rem;
-	right:0.16rem;
+{	
+	margin-right:0.32rem;
+	display:inline-block;
+	margin-bottom:0.2rem;
+	
 }
 .last
 {
-	height:0.32rem;
 	background-color:rgb(38,162,111);
 	text-align:center;
 	position:relative;
 }
 .last p
 {
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
+	padding:0.08rem;
 }
 .onhover li:hover
 {
@@ -464,4 +518,8 @@ section .box-4 p
 .onhover a
 {
 	color:black;
+}
+.onhover
+{
+	padding-left:0rem;
 }

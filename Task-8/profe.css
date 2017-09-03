@@ -1,3 +1,7 @@
+body
+{
+	overflow-x:hidden
+}
 html
 {
 	font-size:625%;
@@ -10,6 +14,11 @@ img
 {
 	padding-left:0rem;
 	padding-right:0rem;
+}
+.zero
+{
+	padding:0rem 0rem 0rem 0.15rem;
+
 }
 .head_firstPart
 {
@@ -28,56 +37,43 @@ img
 	float:right;
 	margin-left:0.16rem;
 }
+
 .ob
 {
 	background-color:rgb(41,176,120);
 }
-.head_secondPart
+.mynav-abox
+{
+	margin:0rem;
+	border:none;
+}
+.mynav-box
 {
 	background-color:rgb(41,176,120);
-	overflow:auto;
-	padding-left:0rem;
-	padding-right:0rem;
-	vertical-align:middle;
-	position:relative;
-	
-}
-.head_secondPart img
-{
-	vertical-align:middle;
-	position:absolute;
-	top:50%;
-	transform:translateY(-50%);
+	padding:0rem;
 
-	
 }
-.head_secondPart ul
+@media (min-width: 768px)
 {
-	
-}
-.head_secondPart ul li
+.mynav
 {
-	list-style:none;
 	float:right;
-	padding:0.41rem 0.35rem;
 }
-.about
-{
-	padding-right:0rem;
 }
-.f1:hover
+.mynav li:hover
 {
 	border-bottom:0.05rem solid white;
 }
-.head_secondPart ul li a:hover
-{
-	text-decoration:none;
-}
-.head_secondPart ul li a
+#color-white
 {
 	color:white;
-	letter-spacing:0.05rem;
+}
+.mynav li
+{
+	padding:0.27rem 0rem;
+	letter-spacing:0.1rem;
 	font-size:0.16rem;
+	
 }
 
 
@@ -248,62 +244,54 @@ section
 .index_footer
 {
 	background-color:rgb(38,162,111);
-	padding-bottom:1.71rem;
-	border-bottom:0.002rem solid white;
+	margin-top:0rem;
+	border-bottom:0.005rem solid white;
 }
-.para1
+@media (max-width: 768px)
 {
-	position:absolute;
-	left:0.15rem;
-	top:0.38rem;
+	.para1,.para2,.para3,.para5,.para6
+	{
+		text-align:center;
+	}
+}
+.para1 p
+{
+	
+	margin-top:0.38rem;
+	margin-bottom:0.15rem;
 	font-size:0.16rem;
 	color:white;
 }
-.para2
+.para2 p
 {
-	position:absolute;
-	right:1.75rem;
-	font-size:0.16rem;
-	color:white;
-	top:0.38rem;
-}
-.para3
-{
-	position:absolute;
-	left:3.6rem;
-	top:0.82rem;
+	margin-top:0.38rem;
+	margin-bottom:0.15rem;
+	margin-left:0.5rem;
 	font-size:0.16rem;
 	color:white;
 }
-.para4
+.para3 p
 {
-	position:absolute;
-	right:0.35rem;
-	font-size:0.16rem;
-	color:white;
-	top:0.82rem;
-}
-.para5
-{
-	position:absolute;
-	left:0.15rem;
-	font-size:0.16rem;
-	color:white;
-	top:1.21rem;
-}
-.para6
-{
-	position:absolute;
-	left:3.6rem;
-	top:1.21rem;
+	margin-top:0.17rem;
+	margin-left:0.5rem;
+	padding-bottom:0.07rem;
+	margin-bottom:0.12rem;
 	font-size:0.16rem;
 	color:white;
 }
-.para7
+.para5 p
 {
-	position:absolute;
-	right:0.65rem;
-	top:1.21rem;
+	margin-top:0.07rem;
+    margin-bottom:0.34rem;
+	font-size:0.16rem;
+	color:white;
+}
+.para6 p
+{
+
+    margin-top:0.07rem;
+    margin-bottom:0.34rem;
+	margin-left:0.5rem;
 	font-size:0.16rem;
 	color:white;
 }
@@ -311,29 +299,68 @@ section
 {
 	font-size:0.16rem;
 	color:white;
-	position:absolute;
-	top:0.4rem;
-	right:0.16rem;
+	margin-top:0.39rem;
+	margin-right:0.3rem;
+	margin-bottom:0.09rem;
+}
+.mid
+{
+	text-align:right;
 }
 .wei
-{
-	position:absolute;
-	top:0.61rem;
-	right:0.16rem;
+{	
+	margin-right:0.32rem;
+	display:inline-block;
+	margin-bottom:0.2rem;
+	
 }
 .last
 {
-	height:0.32rem;
 	background-color:rgb(38,162,111);
 	text-align:center;
 	position:relative;
 }
 .last p
 {
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
+	padding:0.08rem;
+}
+.onhover li:hover
+{
+	text-decoration:underline
+}
+.onhover a
+{
+	color:black;
+}
+.onhover
+{
+	padding-left:0rem;
+}
+@media (max-width: 1200px)
+{
+	.in-box1
+	{
+		margin-bottom:0.3rem;
+	}
+}
+@media (max-width: 995px)
+{
+	 .in-box1
+	{
+		
+		margin:0rem auto 0.3rem auto;
+	}
+	.in-box2
+	{
+		margin:0rem auto 0.3rem auto;
+	}
+}
+@media (max-width: 768px)
+{
+	.font-end
+	{
+		text-align:center;
+	}
 }
 .sout-box
 {
@@ -341,25 +368,32 @@ section
 	margin-top:0.48rem;
 	justify-content:flex-start;
 	width:100%;
+	flex-wrap:wrap;
 }
+
 .out-box
 {
 	display:flex;
 	justify-content:space-between;
 	width:100%;
+	flex-wrap:wrap;
 }
 .in-box1
 {
-	width:31.3%;
+	width:3.756rem;
 	position:relative;
 	background-color:white;
 }
 .in-box2
 {
-	width:31.3%;
-	margin-right:3.35%;
+	width:3.756rem;
 	position:relative;
 	background-color:white;
+}
+.help-box
+{
+	width:0.22rem;
+	height:4.73rem;
 }
 .in-box2:hover .cup
 {
