@@ -1,10 +1,13 @@
 body
 {
-	overflow-x:hidden
+	overflow-x:hidden;
+	
 }
 html
 {
 	font-size:625%;
+	background-color:rgb(38,162,111);
+
 }
 img
 {
@@ -52,6 +55,13 @@ img
 	padding:0rem;
 
 }
+@media (max-width: 768px)
+{
+	.mynav-box
+	{
+		text-align:center;
+	}
+}
 @media (min-width: 768px)
 {
 .mynav
@@ -98,6 +108,10 @@ img
 {
 	margin: 0.1rem 0 0.3rem 0;
 	
+}
+.box4 span
+{
+	color:rgb(41,176,120);
 }
 @media screen and (max-width: 768px)
 {
@@ -199,7 +213,7 @@ img
 		
 	}
 	.box-4{
-		width:3.1rem;
+		width:3.1rem !important;
 	}
 }
 section .box-1
@@ -385,6 +399,7 @@ section .box-4 p
 .pic-box:hover
 {
     box-shadow:0px 0px 5px rgb(22,245,242);
+	z-index:999;
 }
 @media (max-width: 768px)
 {
@@ -392,8 +407,10 @@ section .box-4 p
 	{
 		
 		margin:0.3rem auto;
+		
 	}
 }
+
 .pic-box
 {
     width:2.4rem;
@@ -427,6 +444,15 @@ section .box-4 p
 	width:1.1rem;
 	padding-bottom:0.18rem;
 }
+@media (max-width: 768px)
+{
+	.my-li  div
+	{
+		display:inline;
+		text-align:center;
+        padding-bottom:0.01rem;
+	}
+}
 
 .index_footer
 {
@@ -436,51 +462,70 @@ section .box-4 p
 }
 @media (max-width: 768px)
 {
-	.para1,.para2,.para3,.para5,.para6
+	.para1
 	{
-		text-align:center;
+		
+	}
+	.para2
+	{
+		margin-left:0rem !important;
+	}
+	.para3
+	{
+		margin-left:0rem !important;
+	}
+	.para4
+	{
+		margin-left:0rem !important;
+	}
+	.para5
+	{
+		margin-top:0.4rem !important;
+	}
+	.mid
+	{
+		text-align:left !important;
 	}
 }
-.para1 p
+.para1
 {
 	
 	margin-top:0.38rem;
 	margin-bottom:0.15rem;
+}
+.para1 a,.para2 a,.para3 a,.para4 a,.para5 a
+{
 	font-size:0.16rem;
 	color:white;
 }
-.para2 p
+.para2
 {
 	margin-top:0.38rem;
-	margin-bottom:0.15rem;
-	margin-left:0.5rem;
-	font-size:0.16rem;
-	color:white;
+	margin-bottom:0.3rem;
+	margin-left:0.4rem;
+
 }
-.para3 p
+.para3
 {
 	margin-top:0.17rem;
-	margin-left:0.5rem;
+	margin-left:0.4rem;
 	padding-bottom:0.07rem;
 	margin-bottom:0.12rem;
-	font-size:0.16rem;
-	color:white;
-}
-.para5 p
-{
-	margin-top:0.07rem;
-    margin-bottom:0.34rem;
-	font-size:0.16rem;
-	color:white;
-}
-.para6 p
-{
 
-    margin-top:0.07rem;
+}
+.para4
+{
+	margin-top:0.17rem;
+	margin-left:0.4rem;
+	padding-bottom:0.07rem;
+	margin-bottom:0.12rem;
+
+}
+.para5
+{
+	margin-top:0.8rem;
     margin-bottom:0.34rem;
-	margin-left:0.5rem;
-	font-size:0.16rem;
-	color:white;
+
 }
 .text-9
 {
@@ -509,7 +554,7 @@ section .box-4 p
 }
 .last p
 {
-	padding:0.08rem;
+	padding-top:0.08rem;
 }
 .onhover li:hover
 {
