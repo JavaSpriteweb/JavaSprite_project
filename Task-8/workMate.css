@@ -1,10 +1,13 @@
 body
 {
-	overflow-x:hidden
+	overflow-x:hidden;
+	
 }
 html
 {
 	font-size:625%;
+	background-color:rgb(38,162,111);
+
 }
 img
 {
@@ -52,6 +55,13 @@ img
 	padding:0rem;
 
 }
+@media (max-width: 768px)
+{
+	.mynav-box
+	{
+		text-align:center;
+	}
+}
 @media (min-width: 768px)
 {
 .mynav
@@ -82,7 +92,7 @@ section
 }
 .indexword
 {
-	padding:0.33rem 0 0.29rem 0;
+	padding:0.33rem 0 0.29rem 0.15rem;
 	font-size:0.16rem;
 	color:rgb(41,176,120);
 }
@@ -103,6 +113,11 @@ section
 	font-weight:600;
 	padding-top:0.21rem;
 	padding-bottom:0.1rem;
+}
+.middle-li
+{
+	padding:0rem;
+	text-align:center;
 }
 .empty-circle
 {
@@ -190,51 +205,70 @@ li
 }
 @media (max-width: 768px)
 {
-	.para1,.para2,.para3,.para5,.para6
+	.para1
 	{
-		text-align:center;
+		
+	}
+	.para2
+	{
+		margin-left:0rem !important;
+	}
+	.para3
+	{
+		margin-left:0rem !important;
+	}
+	.para4
+	{
+		margin-left:0rem !important;
+	}
+	.para5
+	{
+		margin-top:0.4rem !important;
+	}
+	.mid
+	{
+		text-align:left !important;
 	}
 }
-.para1 p
+.para1
 {
 	
 	margin-top:0.38rem;
 	margin-bottom:0.15rem;
+}
+.para1 a,.para2 a,.para3 a,.para4 a,.para5 a
+{
 	font-size:0.16rem;
 	color:white;
 }
-.para2 p
+.para2
 {
 	margin-top:0.38rem;
-	margin-bottom:0.15rem;
-	margin-left:0.5rem;
-	font-size:0.16rem;
-	color:white;
+	margin-bottom:0.3rem;
+	margin-left:0.4rem;
+
 }
-.para3 p
+.para3
 {
 	margin-top:0.17rem;
-	margin-left:0.5rem;
+	margin-left:0.4rem;
 	padding-bottom:0.07rem;
 	margin-bottom:0.12rem;
-	font-size:0.16rem;
-	color:white;
-}
-.para5 p
-{
-	margin-top:0.07rem;
-    margin-bottom:0.34rem;
-	font-size:0.16rem;
-	color:white;
-}
-.para6 p
-{
 
-    margin-top:0.07rem;
+}
+.para4
+{
+	margin-top:0.17rem;
+	margin-left:0.4rem;
+	padding-bottom:0.07rem;
+	margin-bottom:0.12rem;
+
+}
+.para5
+{
+	margin-top:0.8rem;
     margin-bottom:0.34rem;
-	margin-left:0.5rem;
-	font-size:0.16rem;
-	color:white;
+
 }
 .text-9
 {
@@ -263,7 +297,7 @@ li
 }
 .last p
 {
-	padding:0.08rem;
+	padding-top:0.08rem;
 }
 .onhover li:hover
 {
