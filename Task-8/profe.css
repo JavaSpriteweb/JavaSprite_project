@@ -6,7 +6,7 @@ body
 html
 {
 	font-size:625%;
-	background-color:rgb(38,162,111);
+
 
 }
 img
@@ -353,7 +353,8 @@ section
 }
 .last p
 {
-	padding-top:0.08rem;
+	padding:0.08rem;
+	margin:0rem;
 }
 .onhover li:hover
 {
