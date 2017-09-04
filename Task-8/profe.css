@@ -1,10 +1,13 @@
 body
 {
-	overflow-x:hidden
+	overflow-x:hidden;
+	
 }
 html
 {
 	font-size:625%;
+	background-color:rgb(38,162,111);
+
 }
 img
 {
@@ -18,7 +21,6 @@ img
 .zero
 {
 	padding:0rem 0rem 0rem 0.15rem;
-
 }
 .head_firstPart
 {
@@ -53,6 +55,13 @@ img
 	padding:0rem;
 
 }
+@media (max-width: 768px)
+{
+	.mynav-box
+	{
+		text-align:center;
+	}
+}
 @media (min-width: 768px)
 {
 .mynav
@@ -84,7 +93,7 @@ section
 }
 .indexword
 {
-	padding:0.33rem 0 0.29rem 0;
+	padding:0.33rem 0 0.29rem 0.15rem;
 	font-size:0.16rem;
 	border-bottom:0.01rem solid rgb(208,214,217);
 	color:rgb(41,176,120);
@@ -95,18 +104,19 @@ section
 }
 .nava
 {
-	padding: 0.15rem 0.5rem;
+	padding: 0.15rem 0rem;
 	position:relative;
 	border-bottom:0.01rem solid rgb(237,241,242);
 }
-.nava span
+#direction
 {
-	position:absolute;
-	top:50%;
-	left:0rem;
-	transform:translateY(-50%);
-	font-size:0.14rem;
-	color:rgb(153,153,153);
+	font-size:0.16rem  !important;
+	color:rgb(153,153,153)  !important;
+}
+#direction:hover
+{
+	background-color:rgb(250,250,250);
+	cursor:default; 
 }
 .font-end
 {
@@ -133,7 +143,6 @@ section
 {
 	font-size:0.16rem;
 	color:black;
-	display:inline-block;
 	font-weight:600;
 	margin: 0.25rem 0.1rem 0.1rem 0rem;
 }
@@ -241,6 +250,9 @@ section
 	height:1.05rem;
 
 }
+
+
+
 .index_footer
 {
 	background-color:rgb(38,162,111);
@@ -249,51 +261,70 @@ section
 }
 @media (max-width: 768px)
 {
-	.para1,.para2,.para3,.para5,.para6
+	.para1
 	{
-		text-align:center;
+		
+	}
+	.para2
+	{
+		margin-left:0rem !important;
+	}
+	.para3
+	{
+		margin-left:0rem !important;
+	}
+	.para4
+	{
+		margin-left:0rem !important;
+	}
+	.para5
+	{
+		margin-top:0.4rem !important;
+	}
+	.mid
+	{
+		text-align:left !important;
 	}
 }
-.para1 p
+.para1
 {
 	
 	margin-top:0.38rem;
 	margin-bottom:0.15rem;
+}
+.para1 a,.para2 a,.para3 a,.para4 a,.para5 a
+{
 	font-size:0.16rem;
 	color:white;
 }
-.para2 p
+.para2
 {
 	margin-top:0.38rem;
-	margin-bottom:0.15rem;
-	margin-left:0.5rem;
-	font-size:0.16rem;
-	color:white;
+	margin-bottom:0.3rem;
+	margin-left:0.4rem;
+
 }
-.para3 p
+.para3
 {
 	margin-top:0.17rem;
-	margin-left:0.5rem;
+	margin-left:0.4rem;
 	padding-bottom:0.07rem;
 	margin-bottom:0.12rem;
-	font-size:0.16rem;
-	color:white;
-}
-.para5 p
-{
-	margin-top:0.07rem;
-    margin-bottom:0.34rem;
-	font-size:0.16rem;
-	color:white;
-}
-.para6 p
-{
 
-    margin-top:0.07rem;
+}
+.para4
+{
+	margin-top:0.17rem;
+	margin-left:0.4rem;
+	padding-bottom:0.07rem;
+	margin-bottom:0.12rem;
+
+}
+.para5
+{
+	margin-top:0.8rem;
     margin-bottom:0.34rem;
-	margin-left:0.5rem;
-	font-size:0.16rem;
-	color:white;
+
 }
 .text-9
 {
@@ -322,7 +353,7 @@ section
 }
 .last p
 {
-	padding:0.08rem;
+	padding-top:0.08rem;
 }
 .onhover li:hover
 {
@@ -336,11 +367,20 @@ section
 {
 	padding-left:0rem;
 }
+
+
+
+
 @media (max-width: 1200px)
 {
 	.in-box1
 	{
 		margin-bottom:0.3rem;
+	}
+	.sout-box
+	{
+		margin-top:0rem !important;
+		justify-content:space-between !important;
 	}
 }
 @media (max-width: 995px)
@@ -352,7 +392,7 @@ section
 	}
 	.in-box2
 	{
-		margin:0rem auto 0.3rem auto;
+		margin:0rem auto 0.3rem auto !important;
 	}
 }
 @media (max-width: 768px)
@@ -387,13 +427,9 @@ section
 .in-box2
 {
 	width:3.756rem;
+	margin-right:0.25rem;
 	position:relative;
 	background-color:white;
-}
-.help-box
-{
-	width:0.22rem;
-	height:4.73rem;
 }
 .in-box2:hover .cup
 {
