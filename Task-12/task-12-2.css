@@ -1,0 +1,301 @@
+html {
+  font-size: 625%;
+}
+body {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 0.55rem;
+  margin-top: 0.55rem;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+header {
+  width: 100%;
+  height: 0.55rem;
+  background-color: #66cccc;
+  z-index: 10;
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  text-align: center;
+}
+header .butt {
+  width: 2.1rem;
+  height: 0.55rem;
+  background-color: #66cccc;
+  position: relative;
+  margin: 0 auto;
+}
+header .boss {
+  width: 1.1rem;
+  height: 0.42rem;
+  background-color: #55a8b3;
+  font-size: 0.18rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0.06rem;
+  left: 0rem;
+  z-index: 3;
+  border-radius: 0.05rem;
+  border: none;
+}
+header .work {
+  width: 1.05rem;
+  height: 0.42rem;
+  background-color: #ffffff;
+  font-size: 0.18rem;
+  color: #5fc0cd;
+  position: absolute;
+  top: 0.06rem;
+  right: 0rem;
+  z-index: 4;
+  border-radius: 0.05rem;
+  border: none;
+}
+header .local {
+  background-image: url("image/image-sm.png");
+  background-position: 0rem 0rem;
+  position: absolute;
+  width: 0.43rem;
+  height: 0.43rem;
+  background-color: #66cccc;
+  display: inline;
+  top: 0.06rem;
+  right: 0.08rem;
+  transform: scale(0.625);
+}
+.dropdown {
+  width: 100%;
+  height: 0.55rem;
+  font-size: 0.17rem;
+  color: #999999;
+}
+.dropdown .triangle {
+  width: 0;
+  height: 0;
+  border-width: 0.06rem;
+  position: absolute;
+  top: 0.25rem;
+  left: 80%;
+  border-style: solid dashed dashed dashed;
+  border-color: #afbac0 transparent transparent transparent;
+}
+.dropdown .station {
+  width: 33.3333333%;
+  height: auto;
+  background-color: #ffffff;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.dropdown .station:hover ul {
+  display: block;
+}
+.dropdown .rest {
+  width: 33.3333333%;
+  height: auto;
+  background-color: #ffffff;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.dropdown .rest:hover ul {
+  display: block;
+}
+.dropdown .situation {
+  width: 33.3333333%;
+  height: auto;
+  background-color: #ffffff;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.dropdown .situation:hover ul {
+  display: block;
+}
+.dropdown .btn {
+  width: 100%;
+  height: 0.55rem;
+  background-color: #ffffff;
+  font-size: 0.17rem;
+  color: #999999;
+  border: 0.01rem solid #e1e5e7;
+  border-top: none;
+}
+.dropdown ul {
+  list-style-type: none;
+  padding: 0rem;
+  margin: 0rem;
+  width: 100%;
+  opacity: 1;
+  display: none;
+  position: absolute;
+  z-index: 1000;
+}
+.dropdown ul li {
+  text-align: center;
+  height: 0.3rem;
+  line-height: 0.29rem;
+  opacity: 1;
+  background-color: #f2f2f2;
+  border: 0.01rem solid #e1e5e7;
+  border-top: none;
+}
+.dropdown ul > :first-child + li {
+  background-color: white;
+  opacity: 1;
+}
+section {
+  padding: 0rem 0.3rem 0rem 0.3rem;
+  font-size: 0.16rem;
+  border-bottom: 0.008rem solid #e1e5e7;
+}
+section div .caleda {
+  background-image: url("image/image-sm.png");
+  background-position: 1.52rem 0rem;
+  width: 0.24rem;
+  height: 0.16rem;
+  background-color: #ffffff;
+  display: inline;
+  float: left;
+  transform: scale(1);
+  margin-top: 0.03rem;
+  margin-right: 0.15rem;
+}
+section div .serveDate {
+  font-size: 0.16rem;
+  color: #a9a9a9;
+}
+section div .date {
+  font-size: 0.15rem;
+  color: #000000;
+  margin-left: 0.38rem;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+section div .rectangle {
+  background-image: url("image/image-sm.png");
+  background-position: 1.9rem 0rem;
+  width: 0.185rem;
+  height: 0.33rem;
+  background-color: #ffffff;
+  display: inline;
+  float: right;
+  transform: scale(0.6);
+  margin-top: -0.066rem;
+}
+section div .profit {
+  font-size: 0.16rem;
+  color: #ff0000;
+  float: right;
+  font-weight: bold;
+  margin-right: 0.1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+section div .GPS {
+  background-image: url("image/image-sm.png");
+  background-position: 1.715rem 0rem;
+  width: 0.19rem;
+  height: 0.21rem;
+  background-color: #ffffff;
+  display: inline;
+  float: left;
+  transform: scale(0.9);
+  margin-left: 0.02rem;
+  margin-right: 0.16rem;
+}
+section div .address {
+  font-size: 0.16rem;
+  color: #a9a9a9;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+footer {
+  width: 100%;
+  height: 0.6rem;
+  background-color: #f8fafb;
+  font-size: 0.15rem;
+  position: fixed;
+  bottom: 0rem;
+  z-index: 1;
+  text-align: center;
+}
+footer .box1 {
+  width: 0.665rem;
+  height: 0.665rem;
+  background-color: #f8fafb;
+  display: inline;
+}
+footer .box1 .circle {
+  background-image: url("image/image-sm.png");
+  background-position: -0.42rem 0rem;
+  width: 0.95rem;
+  height: 0.95rem;
+  transform: scale(0.6);
+  position: absolute;
+  top: -0.17rem;
+  margin-left: -0.48rem;
+}
+footer .box1 .doll {
+  background-image: url("image/image-sm.png");
+  background-position: 0.41rem 0rem;
+  width: 0.425rem;
+  height: 0.41rem;
+  transform: scale(0.8);
+  position: absolute;
+  top: 0.085rem;
+  margin-left: -0.19rem;
+}
+footer .box2 {
+  width: 0.665rem;
+  height: 0.665rem;
+  background-color: #f8fafb;
+  display: inline-block;
+  position: absolute;
+  right: 12%;
+}
+footer .box2 .people {
+  background-image: url("image/image-sm.png");
+  background-position: 0.826rem 0rem;
+  width: 0.425rem;
+  height: 0.41rem;
+  transform: scale(0.65);
+  position: absolute;
+  top: 0rem;
+  margin-left: -0.08rem;
+}
+footer .box2 #text1 {
+  position: absolute;
+  bottom: 0.09rem;
+  color:grey;
+}
+footer .box3 {
+  height: 0.665rem;
+  display: inline-block;
+  width: 0.665rem;
+  position: absolute;
+  left: 12%;
+}
+footer .box3 .people1 {
+  background-image: url("image/image-sm.png");
+  background-position: 1.287rem 0rem;
+  width: 0.47rem;
+  height: 0.405rem;
+  transform: scale(0.7);
+  position: absolute;
+  top: 0.02rem;
+  margin-left: -0.24rem;
+}
+footer .box3 .text2 {
+  position: absolute;
+  bottom: 0.08rem;
+  left: 0.2rem;
+  color: #66cccc;
+}

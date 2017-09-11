@@ -1,0 +1,166 @@
+html {
+  font-size: 625%;
+}
+body {
+  width: auto;
+  margin: 0rem;
+  margin-bottom: 3rem;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  width: 100%;
+  height: 0.44rem;
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  background-image: url("image/bg1.png");
+  text-align: center;
+  vertical-align: middle;
+  z-index: 1;
+}
+header .back {
+  position: absolute;
+  top: 0.1rem;
+  left: 0.15rem;
+  width: 0.15rem;
+}
+header p {
+  font-size: 0.18rem;
+  color: #ffffff;
+  margin: 0rem;
+  line-height: 0.45rem;
+}
+.messageCard {
+  width: 100%;
+  height: 1.63rem;
+  margin-top: 0.44rem;
+  position: relative;
+  background: url("image/first-image.png") no-repeat center;
+  background-size: cover;
+}
+.messageCard .head {
+  width: 0.83rem;
+  height: 0.83rem;
+  padding-top: 0.18rem;
+  margin-left: 0.3rem;
+  display: inline-block;
+}
+.messageCard .name {
+  font-size: 0.2rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0.52rem;
+  left: 1.5rem;
+}
+.messageCard .age {
+  font-size: 0.15rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0.55rem;
+  left: 2.35rem;
+}
+.messageCard .adress {
+  font-size: 0.2rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0.95rem;
+  left: 1.5rem;
+  width: 0.15rem;
+}
+.messageCard .text {
+  font-size: 0.15rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0.91rem;
+  left: 1.75rem;
+}
+ul {
+  margin-bottom: 0.44rem;
+  list-style-type: none;
+  font-size: 0.16rem;
+  height: 0.45rem;
+  line-height: 0.455rem;
+  border-bottom: 0.0001rem solid #ccccff;
+}
+ul li {
+  list-style-type: none;
+  font-size: 0.16rem;
+  height: 0.45rem;
+  line-height: 0.455rem;
+  border-bottom: 0.0001rem solid #ccccff;
+}
+ul .Tech {
+  text-indent: -0.3rem;
+  font-weight: bold;
+}
+ul .thin {
+  color: #ccccff;
+  font-weight: 100;
+}
+ul .blue {
+  color: blue;
+}
+ul .grey {
+  color: #ccccff;
+}
+ul .left {
+  margin-left: -0.2rem;
+}
+ul .last {
+  height: auto;
+  vertical-align: middle;
+  text-indent: -0.08rem;
+  margin-left: -0.4rem;
+  padding-left: 0.255rem;
+}
+ul table,
+ul td,
+ul tr {
+  margin: 0rem;
+  padding: 0rem;
+}
+ul #line {
+  border-bottom: 0.01rem solid black;
+  width: 100%;
+}
+ul .td1 {
+  width: 0.7rem;
+}
+ul .td2 {
+  text-indent: 0rem;
+  line-height: 0.2rem;
+  font-size: 0.1rem;
+}
+form {
+  width: 100%;
+  position: fixed;
+  bottom: 0.02rem;
+  left: 0rem;
+}
+form .p1 {
+  width: 42.77%;
+  height: 0.4rem;
+  font-size: 0.16rem;
+  color: #66cccc;
+  background-color: white;
+  border-radius: 0.1rem;
+  outline: none;
+  border: 0.02rem solid #66cccc;
+  margin-right: 3.8%;
+  margin-left: 5.27%;
+}
+form .p2 {
+  width: 42.77%;
+  height: 0.4rem;
+  font-size: 0.16rem;
+  color: #ffffff;
+  background-color: #66cccc;
+  border-radius: 0.1rem;
+  border: 0.02rem solid #66cccc;
+  outline: none;
+  margin-right: 5.27%;
+}

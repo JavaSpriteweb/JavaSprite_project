@@ -1,0 +1,290 @@
+html
+{
+	font-size:625%
+}
+body
+{
+	width:100%;
+	margin:0;
+	margin-bottom: 0.55rem;
+	margin-top:0.55rem;
+	overflow-x:hidden;
+}
+img
+{
+	max-width:100%;
+}
+.position(@type:position,@top:0rem,@left)
+{
+	position:@type;
+	top:@top;
+	left:@left;
+}
+.box(@width,@height,@background-color:#ffffff)
+{
+	width:@width;
+	height:@height;
+	background-color:@background-color;
+}
+.font(@size,@color)
+{
+	font-size:@size;
+	color:@color;
+
+}
+.addr()
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+header
+{
+	.box(100%,0.55rem,#66cccc);
+	z-index:10;
+	.position(fixed,0rem,0rem);
+	text-align:center;
+	.butt
+    {
+	    .box(2.1rem,0.55rem,#66cccc);
+	    position:relative;
+	    margin:0 auto;
+    }
+    .boss
+    {
+        .box(1.1rem,0.42rem,rgb(85,168,179));
+	    .font(0.18rem,white);
+	    .position(absolute,0.06rem,0rem);
+	    z-index:3;
+        border-radius: 0.05rem;
+        border:none;
+    }
+    .work
+    {
+        .box(1.05rem,0.42rem,white);
+        .font(0.18rem,rgb(95,192,205));
+	    position:absolute;
+	    top:0.06rem;
+	    right:0rem;
+    	z-index:4;
+        border-radius: 0.05rem;
+        border:none;
+
+    }
+    .local
+    {
+	    background-image:url("image/image-sm.png");
+	    background-position:0rem 0rem;
+	    position:absolute;
+	    .box(0.43rem,0.43rem,#66cccc);
+	    display:inline;
+        top: 0.06rem;
+        right: 0.08rem;
+	    transform: scale(0.625);
+    }
+}
+.dropdown{
+	width:100%;
+	height:0.55rem;
+	.font(0.17rem,rgb(153,153,153));
+	.triangle{
+            width:0;
+            height:0;
+            border-width:0.06rem;
+            .position(absolute,0.25rem,80%);
+            border-style:solid dashed dashed dashed;
+            border-color:rgb(175,186,192) transparent transparent transparent;
+        }
+	.station{
+	    .box(33.3333333%,auto,#ffffff);
+	    float:left;
+	    position:relative;
+	    display:inline-block;
+	    &:hover ul
+	    {
+	        display:block;
+	    }
+	}
+	.rest{
+	    .box(33.3333333%,auto,#ffffff);
+	    float:left;
+	    position:relative;
+	    display:inline-block;
+	    &:hover ul
+	    {
+	        display:block;
+	    }
+	}
+	.situation{
+	    .box(33.3333333%,auto,#ffffff);
+	    float:left;
+	    position:relative;
+	    display:inline-block;
+	    &:hover ul
+	    {
+	        display:block;
+	    }
+	}
+	.btn{
+        .box(100%,0.55rem,#ffffff);
+        .font(0.17rem,rgb(153,153,153));
+        border:0.01rem solid rgb(225,229,231);
+        border-top:none;
+	}
+	ul
+	{
+	    list-style-type: none;
+	    padding:0rem;
+	    margin:0rem;
+	    width:100%;
+	    opacity:1;
+	    display: none;
+	    position:absolute;
+	    z-index:1000;
+	    li{
+	        text-align:center;
+	        height:0.3rem;
+	        line-height: 0.29rem;
+	         opacity:1;
+            background-color:rgb(242,242,242);
+            border:0.01rem solid rgb(225,229,231);
+            border-top:none;
+	    }
+	    &>:first-child+li{
+             background-color:white;
+             opacity:1;
+	    }
+	    
+	}
+
+
+}
+section{
+	padding:0rem 0.3rem 0rem 0.3rem;
+	font-size:0.16rem;
+	border-bottom:0.008rem solid rgb(225,229,231);
+	div .caleda{
+	    background-image:url("image/image-sm.png");
+	    background-position:1.52rem 0rem;
+	    .box(0.24rem,0.16rem);
+	    display:inline;
+	    float:left;
+	    transform: scale(1);
+	    margin-top: 0.03rem;
+	    margin-right: 0.15rem;
+	}
+	div .serveDate{
+	    .font(0.16rem,darkgrey);
+	}
+	div .date{
+	    .font(0.15rem,black);
+	    margin-left: 0.38rem;
+	    font-weight: bold;
+	    .addr;
+	}
+	div .rectangle{
+	    background-image:url("image/image-sm.png");
+	    background-position:1.9rem 0rem;
+	    .box(0.185rem,0.33rem);
+	    display:inline;
+	    float:right;
+	    transform: scale(0.6);
+	    margin-top: -0.066rem;
+	}
+	div .profit{
+	    .font(0.16rem,red);
+	    float: right;
+	    font-weight: bold;
+	    margin-right: 0.1rem;
+	    .addr;
+	}
+	div .GPS{
+	    background-image:url("image/image-sm.png");
+	    background-position:1.715rem 0rem;
+	    .box(0.19rem,0.21rem);
+	    display:inline;
+	    float:left;
+	    transform: scale(0.9);
+	    margin-left:0.02rem;
+	    margin-right:0.16rem;
+	}
+	div .address{
+        .font(0.16rem,darkgrey);
+        .addr;
+	}
+}
+footer{
+    .box(100%,0.60rem,rgb(248,250,251));
+    font-size:0.15rem;
+	position:fixed;
+	bottom:0rem;
+	z-index:1;
+	text-align:center;
+	.box1{
+	    .box(0.665rem,0.665rem,rgb(248,250,251));
+        display: inline;
+        .circle{
+            background-image:url("image/image-sm.png");
+	        background-position:-0.42rem 0rem;
+	        width:0.95rem;
+	        height:0.95rem;
+	        transform: scale(0.6);
+            position:absolute;
+	        top:-0.17rem;
+	        margin-left: -0.48rem;
+        }
+        .doll{
+            background-image:url("image/image-sm.png");
+	        background-position:0.41rem 0rem;
+	        width:0.425rem;
+	        height:0.41rem;
+	        transform: scale(0.8);
+            position:absolute;
+	        top:0.085rem;
+	        margin-left:-0.19rem;
+        }
+	}
+	.box2{
+	    .box(0.665rem,0.665rem,rgb(248,250,251));
+        display: inline-block;
+	    position:absolute;
+	    right:12%;
+	    .people{
+	        background-image:url("image/image-sm.png");
+	        background-position:0.826rem 0rem;
+	        width:0.425rem;
+	        height:0.41rem;
+	        transform: scale(0.65);
+            position:absolute;
+	        top:0rem;
+	        margin-left:-0.08rem;
+	    }
+	    .text1{
+	        position: absolute;
+            bottom: 0.09rem;
+	    }
+	}
+	.box3{
+	    height: 0.665rem;
+        display: inline-block;
+        width: 0.665rem;
+	    position:absolute;
+	    left:12%;
+	    .people1{
+	        background-image:url("image/image-sm.png");
+	        background-position:1.287rem 0rem;
+	        width:0.47rem;
+	        height:0.405rem;
+	        transform: scale(0.7);
+            position:absolute;
+	        top:0.02rem;
+	        margin-left:-0.24rem;
+	    }
+	    .text2{
+	        position: absolute;
+            bottom: 0.08rem;
+	        left: 0.2rem;
+	        color:#66cccc;
+	    }
+	}
+}
